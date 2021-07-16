@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landingPage.css">
+    <title>My Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Awesome App</h1>
+        <h2>This app will change your life!</h2>
+        <a class="btn">Download Now</a>
+        <div class="submenu">
+          <a href="#">Download PDF</a>
+          <a href="#">Download JPG</a>
+        </div>
+      </div>
+    </header>
+    <section class="features">
+      <div class="container">
+        <div class="feature">
+          <img src="pictures/amazon-pay.svg" alt="">
+          <p>Pay with Amazon Pay</p>
+        </div>
+        <div class="feature">
+          <img src="pictures/money.svg" alt="">
+          <p>Pay in Cash</p>
+        </div>
+        <div class="feature">
+          <img src="pictures/iPay.svg" alt="">
+          <p>Pay with iPay</p>
+        </div>
+      </div>
+    </section>
+    <section class="quote">
+      <blockquote class="container">
+        <p>The Payment systems are so safe and reliable.</p>
+        <cite>Satisfied customer</cite>
+      </blockquote>
+    </section>
+    <footer>
+      <div class="container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <p>&copy All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+    $function(){
+      $(".btn").click(function(){
+        $(".submenu").slideToggle(500);
+      });
+    });
+    </script>
+  </body>
+</html>
